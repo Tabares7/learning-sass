@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Landing Page Designcore</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--? BOOTSTRAP ICONS LINK-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
   </head>
+
   <body>
     <header class="header">
-      <div class="header__logo">coredesign</div>
+      <div class="header__logo">designcore</div>
       <nav class="nav">
         <ul class="nav__menu">
           <li class="nav__menu__link"><a href="#" class="link">About</a></li>
@@ -17,34 +23,70 @@
         </ul>
       </nav>
     </header>
+
+    <!--? WELCOME SECTION-->
     <section class="welcome">
+      <!--? WELCOME IMAGE-->
       <div class="welcome__img">
-        <img
-          src="img/Design team-pana.png"
-        />
+        <img src="img/Design team-pana.png" />
       </div>
+      <!--? WELCOME TEXT-->
       <div class="welcome__text">
-        <h1 class="welcome__title">
+        <h1 class="welcome__text__title">
           Get the image of your startup in 60 seconds
         </h1>
-        <p class="welcome__description">
+        <p class="welcome__text__description">
           A delightful new way to make logos for your startup is coming soon
         </p>
-        <form action="" class="welcome__form">
+        <form action="" class="welcome__text__form">
           <input
             type="email"
             name="email"
             id="email"
             placeholder="Your e-mail"
-            class="welcome__form__input"
+            class="welcome__text__form__input"
           />
           <input
             type="submit"
             value="Notify me"
-            class="welcome__form__submit"
+            class="welcome__text__form__submit"
           />
         </form>
       </div>
+    </section>
+
+    <!--? FAST ABOUT CARDS SECTION-->
+    <section class="fast-cards">
+      <div class="fast-cards__card">
+        <i class="bi bi-stopwatch fast-cards__card__icon"></i>
+        <h3 class="fast-cards__card__title">Real logos, real fast</h3>
+        <p class="fast-cards__card__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          quo placeat eum dignissimos qui? In culpa optio voluptatem quidem
+          quos.
+        </p>
+      </div>
+
+      <div class="fast-cards__card">
+        <i class="bi bi-cloud-download fast-cards__card__icon"></i>
+        <h3 class="fast-cards__card__title">Do it yourself and save</h3>
+        <p class="fast-cards__card__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          quo placeat eum dignissimos qui? In culpa optio voluptatem quidem
+          quos.
+        </p>
+      </div>
+
+      <div class="fast-cards__card">
+        <i class="bi bi-rocket-takeoff fast-cards__card__icon"></i>
+        <h3 class="fast-cards__card__title">Get websites logos</h3>
+        <p class="fast-cards__card__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          quo placeat eum dignissimos qui? In culpa optio voluptatem quidem
+          quos.
+        </p>
+      </div>
+
     </section>
   </body>
 </html>

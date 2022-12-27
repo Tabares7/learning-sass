@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Tabares7/learning-sass#readme",
   "devDependencies": {
     "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.10.3"
   }
 }
