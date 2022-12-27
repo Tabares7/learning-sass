@@ -1,40 +1,21 @@
 @media (max-width: 390px) {
   body {
     width: 100vw;
+    margin: 0;
   }
+
+  
 
   .welcome {
     flex-direction: column;
 
-
-    &__text{
-
-        &__title{
-            font-size: 1.7rem;
-        }
-
-        &__description{
-        }
-        &__form{
-            display: flex;
-            gap: 0.5rem;
-            width: 90%;
-
-            &__input{
-                flex: 4;
-                height: 2rem;
-                border: none;
-                background-color: #e9e9e975;
-                padding: .5rem;
-                font-weight: 600;
-            }
-            &__submit{
-                flex: 1;
-                border: none;
-                border-radius: .3rem;
-                font-weight: 600;
-            }
-        }
+    &__text {
+      background-color: red;
+      background-color: red($color: #000000);
+      &__title {
+        font-size: 10rem;
+        color: red;
+      }
     }
-}
+  }
 }

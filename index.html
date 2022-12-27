@@ -18,8 +18,12 @@
       <div class="header__logo">designcore</div>
       <nav class="nav">
         <ul class="nav__menu">
-          <li class="nav__menu__link"><a href="#" class="link">About</a></li>
-          <li class="nav__menu__link"><a href="#" class="link">Contact</a></li>
+          <li class="nav__menu__link">
+            <a href="#about" class="link">About</a>
+          </li>
+          <li class="nav__menu__link">
+            <a href="#contact" class="link">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -86,11 +90,10 @@
           quos.
         </p>
       </div>
-
     </section>
-
+    
     <!--? ABOUT SECTION-->
-    <section class="about">
+    <section id="about" class="about">
       <!--? about IMAGE-->
       <div class="about__img">
         <img src="img/Designer girl-pana.png" />
@@ -101,9 +104,78 @@
           The tool to improve your brand image is here.
         </h1>
         <p class="about__text__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo similique earum nisi aperiam magnam iure, ullam sint quae ad explicabo!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+          similique earum nisi aperiam magnam iure, ullam sint quae ad
+          explicabo!
         </p>
         <button class="about__text__btn">More about</button>
+      </div>
+    </section>
+
+    <!--? FEATURE CARDS SECTION-->
+    <section class="feature-cards">
+      <div class="feature-cards__card">
+        <i class="bi bi-circle-square feature-cards__card__icon"></i>
+        <h3 class="feature-cards__card__title">Easy to use</h3>
+        <p class="feature-cards__card__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          quo placeat eum dignissimos qui? In culpa optio voluptatem quidem
+          quos.
+        </p>
+      </div>
+
+      <div class="feature-cards__card">
+        <i class="bi bi-fonts feature-cards__card__icon"></i>
+        <h3 class="feature-cards__card__title">Quality fonts</h3>
+        <p class="feature-cards__card__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          quo placeat eum dignissimos qui? In culpa optio voluptatem quidem
+          quos.
+        </p>
+      </div>
+
+      <div class="feature-cards__card">
+        <i class="bi bi-gem feature-cards__card__icon"></i>
+        <h3 class="feature-cards__card__title">Quality icons</h3>
+        <p class="feature-cards__card__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          quo placeat eum dignissimos qui? In culpa optio voluptatem quidem
+          quos.
+        </p>
+      </div>
+    </section>
+
+    <!--? CONTACT SECTION-->
+    <section id="contact" class="contact">
+      <!--? contact IMAGE-->
+      <div class="contact__img">
+        <img src="img/Contact us-pana.png" />
+      </div>
+      <!--? contact TEXT-->
+      <div class="contact__text">
+        <h1 class="contact__text__title">
+          Save time.<br />
+          Save money. <br />
+          Do it your way.
+        </h1>
+        <p class="contact__text__description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, in
+          excepturi commodi impedit laborum consequuntur?
+        </p>
+        <form action="" class="contact__text__form">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your e-mail"
+            class="contact__text__form__input"
+          />
+          <input
+            type="submit"
+            value="Contact me"
+            class="contact__text__form__submit"
+          />
+        </form>
       </div>
     </section>
   </body>
