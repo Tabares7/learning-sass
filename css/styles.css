@@ -1,0 +1,33 @@
+body {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 0rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  line-height: 4rem;
+}
+.header__logo {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: #ffa60d;
+}
+.header .nav__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.header .nav__menu__link {
+  list-style: none;
+}
+.header .nav__menu__link .link {
+  color: black;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */

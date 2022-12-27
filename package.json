@@ -1,0 +1,23 @@
+{
+  "name": "learning-scss",
+  "version": "1.0.0",
+  "description": "Learning Scss for the first time!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tabares7/learning-sass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tabares7/learning-sass/issues"
+  },
+  "homepage": "https://github.com/Tabares7/learning-sass#readme",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}
