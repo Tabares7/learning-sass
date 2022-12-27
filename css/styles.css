@@ -34,7 +34,6 @@ section {
   justify-content: space-between;
   align-items: center;
   height: 5rem;
-  line-height: 5rem;
 }
 @media (max-width: 819px) {
   .header {
@@ -42,15 +41,14 @@ section {
     width: 100%;
   }
 }
-.header__logo {
-  font-weight: bolder;
-  font-size: 1.5rem;
-  color: #fec432;
-  font-family: "Lato", sans-serif;
+.header__logo img {
+  height: 2rem;
+  margin: auto 0;
 }
 @media (max-width: 819px) {
-  .header__logo {
+  .header__logo img {
     margin-left: -1.5rem;
+    height: 1.5rem;
   }
 }
 .header .nav__menu {
