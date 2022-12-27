@@ -1,0 +1,41 @@
+{
+  "devDependencies": {
+    "sass": "^1.57.1"
+  },
+  "name": "learning-scss",
+  "description": "Learning Scss for the first time!",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "anymatch": "^3.1.3",
+    "binary-extensions": "^2.2.0",
+    "braces": "^3.0.2",
+    "chokidar": "^3.5.3",
+    "fill-range": "^7.0.1",
+    "glob-parent": "^5.1.2",
+    "immutable": "^4.2.1",
+    "is-binary-path": "^2.1.0",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "normalize-path": "^3.0.0",
+    "picomatch": "^2.3.1",
+    "readdirp": "^3.6.0",
+    "source-map-js": "^1.0.2",
+    "to-regex-range": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tabares7/learning-sass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tabares7/learning-sass/issues"
+  },
+  "homepage": "https://github.com/Tabares7/learning-sass#readme"
+}
