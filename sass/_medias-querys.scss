@@ -6,16 +6,5 @@
 
   
 
-  .welcome {
-    flex-direction: column;
-
-    &__text {
-      background-color: red;
-      background-color: red($color: #000000);
-      &__title {
-        font-size: 10rem;
-        color: red;
-      }
-    }
-  }
+  
 }
